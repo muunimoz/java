@@ -15,5 +15,12 @@ public class Test2 {
     c = 100;
     c++; //cの値が1増える
     System.out.println(c);
+    
+    int age = (int)3.2; //3.2をintに型変換して代入せよ(int)キャスト演算子
+    System.out.println(age);
+    
+    String name = "すがわら";
+    System.out.print("私の名前は"); //改行なし画面出力
+    System.out.print(name);
   }
 }
