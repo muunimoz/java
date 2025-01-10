@@ -22,5 +22,16 @@ public class Test2 {
     String name = "すがわら";
     System.out.print("私の名前は"); //改行なし画面出力
     System.out.print(name);
+    
+    int d = 5;
+    int f = 3;
+    int m = Math.max(d, f);
+    System.out.println("大きいほうは" + m );
+    
+    System.out.println("あなたの名前を入力してください。");
+    String nam = new java.util.Scanner(System.in).nextLine();
+    System.out.println("あなたの年齢を入力してください。");
+    int ag = new java.util.Scanner(System.in).nextInt();
+    System.out.println("ようこそ、" + ag +"歳の" + nam + "さん");
   }
 }
